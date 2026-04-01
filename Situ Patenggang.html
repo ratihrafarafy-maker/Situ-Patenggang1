@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lensa Kreatif | Studio Fotografi & Videografi</title>
+    <style>
+        /* CSS Internal untuk Layout & Responsive */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background: #093c00;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 85%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+
+        section {
+            padding: 20px 0;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .gallery img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 8px;
+            margin: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        footer {
+            background: #093c00;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+
+        /* Responsivitas sederhana */
+        @media (max-width: 600px) {
+            nav ul li {
+                display: block;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header id="home">
+        <h1>SITU PATENGGANG</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#services">Layanan</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#pricing">Harga</a></li>
+                <li><a href="formsitu.html">formulir</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <section id="about">
+            <h2>Tentang <em>Situ patenggang</em></h2>
+            <p>Situ patenggang adalah salah satu Destinasi wisata alam yang berlokasi di <strong>rancabali jawa barat</strong>. 
+            Situ patenggang memliliki luaa perairan 46,6 hektar(0,466 km) dan berada dj ketinggian kurang lebih 1.600 meter di atas permukaan laut. Danau</p>
+            <p>Danau ini menawarkan panorama alam pegunungan yang dikelilingi oleh perkebunan teh dan hutan tropis, menjadikannya salah satu destinask ekowisata favorit di kawasan bandung selatan</p>
+        </section>
+
+        <section id="services">
+            <h2>Destinasi unggulan</h2>
+            <ul>
+                <li>Pinisi resto (Glamping lakeside)</li>
+                <li>Golesat</li>
+                <li>Rainbow Slide</li>
+                <li>berkeliling danau</li>
+            </ul>
+        </section>
+
+        <section id="portfolio" class="gallery">
+            <h2>Foto situ patenggang</h2>
+            <div class="media-container">
+                <img src="situ1.png" 
+                     alt="Foto situ" title="Destinasi situ patenggang">
+                <img src="situ2.png" alt="Foto situ" title="Destinasi situ patenggang">
+
+                <h3>Video situ patenggang</h3>
+                <video width="100%" controls>
+                    <source src="situ3.mp4" type="video/mp4">
+                    Browser Anda tidak mendukung tag video.
+                </video>
+
+            </div>
+        </section>
+
+        <section id="pricing">
+            <h2>Daftar Harga Paket</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Jenis Paket</th>
+                        <th>tempat</th>
+                        <th>Harga</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Tiket reguler</td>
+                        <td>Hanya area danau</td>
+                        <td>Rp 25.000 per orang</td>
+                    </tr>
+                    <tr>
+                        <td>Tiket terusan (populer)</td>
+                        <td>sudah termasuk akses situ ke patenggang, Glamping lakeside, Pinisi resto, dan jembatang gantung/Lakeside Track</td>
+                        <td>Rp 50.000 per orang</td>
+                    </tr>
+                    <tr>
+                        <td>Tiket paket lengkap</td>
+                        <td>semua akses wisata(sudah termasuk golesat, bukit kelinci, kawah rengganis dan jembatan gantung terpanjang</td>
+                        <td>Rp 100.000 per orang</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2"><strong>Catatan:</strong> 
+                        Harga belum termasuk biaya parkir motor dan mobil serta belum termaasuk tiket wahana.</td>
+                        <td>Pajak 10%</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 situ patenggang menyajikan keindahan alam.</p>
+        <p>Hubungi kami di: <a href="mailto:info@situpatenggang.com" style="color: yellow;">info@situpatenggang.com</a></p>
+    </footer>
+
+</body>
+</html>
+</html>
